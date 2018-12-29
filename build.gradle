@@ -20,3 +20,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation(Deps.kotlinStdlib8)
+    implementation(Deps.rxjava)
+    implementation(Deps.rxkotlin)
+    testImplementation(Deps.junit)
+    testImplementation("com.github.langara:USpek:really-micro-SNAPSHOT")
+}
