@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath Deps.kotlinGradlePlugin
+    }
+}
+
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.3.10"
+}
+
+repositories {
+    google()
+    jcenter()
+    maven { url "https://jitpack.io" }
+    mavenCentral()
+}
+
