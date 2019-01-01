@@ -25,5 +25,5 @@ dependencies {
     implementation(Deps.rxjava)
     implementation(Deps.rxkotlin)
     testImplementation(Deps.junit)
-    testImplementation("com.github.langara:USpek:really-micro-SNAPSHOT")
+    testImplementation(Deps.uspek)
 }
